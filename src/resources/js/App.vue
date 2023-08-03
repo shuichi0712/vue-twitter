@@ -1,11 +1,7 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-
-const message = ref('Hello World!')
-const test: number = 1;
+<script setup>
+  import Header from './components/Header.vue'
 </script>
-
 <template>
-  <h1>{{ message }}</h1>
-  <div>{{ test }}</div>
+  <Header />
+  <router-view></router-view>
 </template>
