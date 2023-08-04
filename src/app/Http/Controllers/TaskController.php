@@ -47,5 +47,6 @@ class TaskController extends Controller
             return response()->json([
                 "message" => "Task not found",
             ], Response::HTTP_NOT_FOUND);
+        }
     }
 }
